@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './index.css';
 import Layout from './Layout.jsx'
-import Home from './components/Home/Home.jsx';
-import Techskills from './components/Techskills/Techskills.jsx';
-import Projects from './components/Projects/Projects.jsx';
-import About from './components/About/About.jsx';
-import Contact from './components/Contact/Contact.jsx';
-import Github, { githubInfoLoader } from './components/Github/Github.jsx';
+import Home from './Components/Home/Home.jsx';
+import Techskills from './Components/Techskills/Techskills.jsx';
+import Projects from './Components/Projects/Projects.jsx';
+import About from './Components/About/About.jsx';
+import Contact from './Components/Contact/Contact.jsx';
+import Github, { githubInfoLoader } from './Components/Github/Github.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
